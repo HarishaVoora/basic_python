@@ -12,3 +12,15 @@ def lcm_num(x, y):
 num1=34
 num2=30
 print("The L.C.M. is", lcm_num(num1, num2))
+
+
+
+            (OR)
+
+
+imort math
+def lcm_num(x,y):
+    return abs(x*y)//math.gcd(x,y)
+num1=30
+num2=34
+print("The L.C.M is",lcm_num(num1,num2))
