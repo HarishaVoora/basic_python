@@ -1,0 +1,14 @@
+def lcm_num(x, y):
+    if x>y:
+        greater_num = x
+    else:
+        greater_num = y
+    while True:
+        if (greater_num%x==0)and(greater_num%y==0):
+            lcm=greater_num
+            break
+        greater_num+=1
+    return lcm
+num1=34
+num2=30
+print("The L.C.M. is", lcm_num(num1, num2))
